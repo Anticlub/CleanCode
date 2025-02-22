@@ -1,8 +1,8 @@
 public class Usuario {
-    String nombre;
-    String email;
-
-    void enviarEmail() {
-        System.out.println("Enviando email a " + email);
+    private String nombre;
+    private String email;
+    
+    public String getEmail() {
+        return email;
     }
 }
